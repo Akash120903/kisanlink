@@ -19,7 +19,7 @@ import Heading from "./heading";
 
 const Screenshot = () => {
   return (
-    <div className="-mt-8" >
+    <div className="bg-[#E5E8E9] -mt-12" >
       <Heading value={"Technology"}></Heading>
       <div className="flex items-center justify-center large:h-[670px] small:-mb-[100px] small:h-[360px] ">
       <div className="w-full sm:w-2/3 aspect-video -mt-24">
