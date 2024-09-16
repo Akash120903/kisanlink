@@ -4,11 +4,12 @@ import Heading from './heading';
 
 const FourCards = () => {
     return (
-        <div className='bg-[#E5E8E9] lg:-mt-24 pt-20 -pb-64'>
+        <div className='bg-[#E5E8E9]  large:-mt-24 small:-mt-24 small:pt-20 small:-mb-[630px] large:-mb-0  large:pt-20'>
+           <div className='small:-mb-28 large:-mb-8'>
             <Heading value={"Our Solutions To Farmers"} />
-
-            <div className="flex justify-center items-center min-h-screen ">
-      <div className="w-full sm:w-2/3 aspect-video -mt-24 ">
+            </div> 
+            <div className="flex justify-center items-center large:h-[690px] small:h-[1000px] ">
+      <div className="w-full sm:w-2/3 aspect-video small:-mt-[500px] large:-mt-12 ">
         <iframe
                 src="https://d33hqsk72xx8w2.cloudfront.net/wp-content/uploads/0814.mp4"
           

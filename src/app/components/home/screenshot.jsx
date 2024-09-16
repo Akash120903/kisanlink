@@ -19,9 +19,9 @@ import Heading from "./heading";
 
 const Screenshot = () => {
   return (
-    <div>
+    <div className="-mt-8" >
       <Heading value={"Technology"}></Heading>
-      <div className="flex items-center justify-center min-h-screen ">
+      <div className="flex items-center justify-center large:h-[670px] small:-mb-[100px] small:h-[360px] ">
       <div className="w-full sm:w-2/3 aspect-video -mt-24">
         <img
           src="https://d33hqsk72xx8w2.cloudfront.net/wp-content/uploads/kisanlink-web-motion-gif-1.gif"
